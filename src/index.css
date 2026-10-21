@@ -1,0 +1,57 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+@layer base {
+  :root {
+    /* Lokavi Core Brand Styling */
+    --color-forest: #354D43;
+    --color-forest-dark: #24352E;
+    --color-forest-light: #4A6B5E;
+    --color-sage: #E8EBE2;
+    --color-sage-light: #F2F5ED;
+    --color-ivory: #F7F4ED;
+    --color-sand: #C9A982;
+    --color-sand-light: #DFCEB7;
+    --color-charcoal: #29323A;
+    --color-charcoal-muted: #53626F;
+
+    /* Semantic Aliases for compatibility */
+    --color-terracotta: #354D43;
+    --color-terracotta-dark: #24352E;
+    --color-terracotta-light: #E8EBE2;
+    --color-saffron: #C9A982;
+    --color-saffron-light: #F7F4ED;
+    --color-cream: #F7F4ED;
+    --color-text-main: #29323A;
+    --color-text-muted: #53626F;
+  }
+
+  html, body {
+    background-color: #F7F4ED;
+    color: #29323A;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, .font-heritage {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+
+  /* Custom subtle warm scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #DFCEB7;
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #C9A982;
+  }
+}

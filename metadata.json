@@ -1,0 +1,6 @@
+{
+  "name": "lokavi",
+  "description": "Discover tourist attractions, hidden gems, local shops, markets, restaurants, nearby services, and directions across India.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

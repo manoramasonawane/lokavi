@@ -1,0 +1,43 @@
+import { IndianState } from '../types/tourism.js';
+
+export const INDIAN_STATES: IndianState[] = [
+  // 28 States
+  { code: 'MH', name: 'Maharashtra', capital: 'Mumbai', type: 'State', region: 'West', popularFor: 'Forts, Western Ghats, Caves, Beaches & Heritage' },
+  { code: 'RJ', name: 'Rajasthan', capital: 'Jaipur', type: 'State', region: 'North', popularFor: 'Palaces, Thar Desert, Royal Forts & Heritage Havelis' },
+  { code: 'GA', name: 'Goa', capital: 'Panaji', type: 'State', region: 'West', popularFor: 'Beaches, Portuguese Architecture, Waterfalls & Nightlife' },
+  { code: 'UP', name: 'Uttar Pradesh', capital: 'Lucknow', type: 'State', region: 'North', popularFor: 'Ganga Ghats, Taj Mahal, Ayodhya & Cultural Heritage' },
+  { code: 'KL', name: 'Kerala', capital: 'Thiruvananthapuram', type: 'State', region: 'South', popularFor: 'Backwaters, Ayurveda, Munnar Tea Valleys & Spice Coast' },
+  { code: 'TG', name: 'Telangana', capital: 'Hyderabad', type: 'State', region: 'South', popularFor: 'Nizami Heritage, Charminar, Golconda Fort & Culinary Delights' },
+  { code: 'KA', name: 'Karnataka', capital: 'Bengaluru', type: 'State', region: 'South', popularFor: 'Hampi Ruins, Coorg Hills, Mysore Palace & Tech Hubs' },
+  { code: 'TN', name: 'Tamil Nadu', capital: 'Chennai', type: 'State', region: 'South', popularFor: 'Dravidian Temples, Nilgiri Hills, Mahabalipuram & Coastal Culture' },
+  { code: 'HP', name: 'Himachal Pradesh', capital: 'Shimla', type: 'State', region: 'North', popularFor: 'Himalayan Valleys, Snow Peaks, Paragliding & Monasteries' },
+  { code: 'UK', name: 'Uttarakhand', capital: 'Dehradun', type: 'State', region: 'North', popularFor: 'Yoga Capital Rishikesh, Char Dham & Valley of Flowers' },
+  { code: 'GJ', name: 'Gujarat', capital: 'Gandhinagar', type: 'State', region: 'West', popularFor: 'White Rann of Kutch, Gir Lions, Somnath & Handicrafts' },
+  { code: 'MP', name: 'Madhya Pradesh', capital: 'Bhopal', type: 'State', region: 'Central', popularFor: 'Khajuraho Temples, Tiger Reserves & Gwalior Fort' },
+  { code: 'WB', name: 'West Bengal', capital: 'Kolkata', type: 'State', region: 'East', popularFor: 'Darjeeling Tea Gardens, Sundarbans & Cultural Festivals' },
+  { code: 'PB', name: 'Punjab', capital: 'Chandigarh', type: 'State', region: 'North', popularFor: 'Golden Temple, Wagah Border & Punjabi Hospitality' },
+  { code: 'AP', name: 'Andhra Pradesh', capital: 'Amaravati', type: 'State', region: 'South', popularFor: 'Tirupati Balaji, Araku Valley & Buddhist Sites' },
+  { code: 'OD', name: 'Odisha', capital: 'Bhubaneswar', type: 'State', region: 'East', popularFor: 'Konark Sun Temple, Puri Jagannath & Chilika Lake' },
+  { code: 'AS', name: 'Assam', capital: 'Dispur', type: 'State', region: 'North-East', popularFor: 'Kaziranga One-Horned Rhinos, Brahmaputra & Tea Gardens' },
+  { code: 'BR', name: 'Bihar', capital: 'Patna', type: 'State', region: 'East', popularFor: 'Bodh Gaya, Nalanda University Ruins & Ancient Lore' },
+  { code: 'CG', name: 'Chhattisgarh', capital: 'Raipur', type: 'State', region: 'Central', popularFor: 'Chitrakote Falls, Bastar Tribal Heritage & Caves' },
+  { code: 'HR', name: 'Haryana', capital: 'Chandigarh', type: 'State', region: 'North', popularFor: 'Kurukshetra, Sultanpur Bird Sanctuary & Agro-Tourism' },
+  { code: 'JH', name: 'Jharkhand', capital: 'Ranchi', type: 'State', region: 'East', popularFor: 'Hundru Waterfalls, Betla National Park & Tribal Arts' },
+  { code: 'MN', name: 'Manipur', capital: 'Imphal', type: 'State', region: 'North-East', popularFor: 'Loktak Floating Lake, Keibul Lamjao & Dance Heritage' },
+  { code: 'ML', name: 'Meghalaya', capital: 'Shillong', type: 'State', region: 'North-East', popularFor: 'Living Root Bridges, Cherrapunji Cascades & Mawlynnong' },
+  { code: 'MZ', name: 'Mizoram', capital: 'Aizawl', type: 'State', region: 'North-East', popularFor: 'Blue Mountain, Bamboo Groves & Rolling Hills' },
+  { code: 'NL', name: 'Nagaland', capital: 'Kohima', type: 'State', region: 'North-East', popularFor: 'Hornbill Festival, Dzukou Valley & Tribal Traditions' },
+  { code: 'SK', name: 'Sikkim', capital: 'Gangtok', type: 'State', region: 'North-East', popularFor: 'Kanchenjunga Views, Tsomgo Lake & Organic Valleys' },
+  { code: 'TR', name: 'Tripura', capital: 'Agartala', type: 'State', region: 'North-East', popularFor: 'Ujjayanta Palace, Neermahal & Unakoti Sculptures' },
+  { code: 'AR', name: 'Arunachal Pradesh', capital: 'Itanagar', type: 'State', region: 'North-East', popularFor: 'Tawang Monastery, Sela Pass & Pristine Orchids' },
+
+  // 8 Union Territories
+  { code: 'DL', name: 'Delhi', capital: 'New Delhi', type: 'Union Territory', region: 'North', popularFor: 'Mughal Monuments, Street Food Walks & National Museums' },
+  { code: 'JK', name: 'Jammu and Kashmir', capital: 'Srinagar / Jammu', type: 'Union Territory', region: 'North', popularFor: 'Dal Lake Houseboats, Gulmarg Gondola & Pahalgam' },
+  { code: 'LA', name: 'Ladakh', capital: 'Leh', type: 'Union Territory', region: 'North', popularFor: 'Pangong Lake, Nubra Valley, High Passes & Monasteries' },
+  { code: 'CH', name: 'Chandigarh', capital: 'Chandigarh', type: 'Union Territory', region: 'North', popularFor: 'Rock Garden, Sukhna Lake & Le Corbusier Architecture' },
+  { code: 'PY', name: 'Puducherry', capital: 'Pondicherry', type: 'Union Territory', region: 'South', popularFor: 'French Quarter, Auroville, Promenade & Quiet Beaches' },
+  { code: 'AN', name: 'Andaman and Nicobar Islands', capital: 'Port Blair', type: 'Union Territory', region: 'South', popularFor: 'Radhanagar Beach, Cellular Jail & Coral Reefs' },
+  { code: 'DN', name: 'Dadra and Nagar Haveli and Daman and Diu', capital: 'Daman', type: 'Union Territory', region: 'West', popularFor: 'Portuguese Forts, Devka Beach & Dudhni Lake' },
+  { code: 'LD', name: 'Lakshadweep', capital: 'Kavaratti', type: 'Union Territory', region: 'South', popularFor: 'Turquoise Lagoons, Coral Atolls & Scuba Diving' },
+];
